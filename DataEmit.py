@@ -39,7 +39,7 @@ def create_datapoint(params):
 
 	train = np.concatenate((pos, neg), axis=0)
 
-
+	np.savetxt("train.txt", train, delimiter=",", fmt='%d')
 
 
 
