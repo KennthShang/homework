@@ -41,3 +41,5 @@ if __name__ == '__main__':
     plt.xlim(0, 1)
     plt.ylim(0, 1)
     plt.show()
+
+    print("PLA result: <" + str(w[2]) + "," + str(w[0]) + "," + str(w[1]) + ">")
