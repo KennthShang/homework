@@ -1,4 +1,3 @@
-%matplotlib inline
 import numpy as np
 import re
 
